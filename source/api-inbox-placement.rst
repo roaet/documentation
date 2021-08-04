@@ -1,7 +1,29 @@
 .. _api-inbox-placement:
 
-Inbox Placement
-===============
+
+Inbox Placement v2
+==================
+
+Generate a seedlist
+-------------------
+
+.. code-block:: url
+
+     POST /v3/inbox/seedlists
+    
+Generate a seed list. The required form fields are as follows:
+
+.. container:: ptable
+
+ ====================== ========================================================
+ Field                  Description
+ ====================== ========================================================
+ sending_domains        The sending domains that messages will come from. You
+                        may specify this multiple times.
+ ====================== ========================================================
+
+Inbox Placement v1 Deprecated
+=============================
 
 Start an inbox placement test
 -----------------------------
