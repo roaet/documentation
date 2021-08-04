@@ -1,7 +1,7 @@
 .. code-block:: bash
 
   curl -X POST https://api.mailgun.net/v3/inbox/seedlists \
-    -F 'sending_domaisn=domain.com' \
+    -F 'sending_domains=domain.com' \
     --user 'api:<YOUR_API_KEY'>'
 .. code-block:: java
 
